@@ -94,7 +94,8 @@ header {
   background-size: cover;
   background-position: center;
   text-align: center;
-  color: white;
+  color: gold;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header nav a {
@@ -172,6 +173,11 @@ nav a.active {
   color: white;
   margin: 10px;
 }
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold
+  font-size: 24px;
+}
 h2 {
   text-align: center;
   margin: 20px 0;
@@ -191,6 +197,35 @@ h2 {
   margin-bottom: 15px;
   position: relative;
 }
+
+.product-1 {
+  background-image: url("../image/notebook.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.product-2 {
+  background-image: url("../image/ballpen.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.product-3 {
+  background-image: url("../image/bondpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.product-4 {
+  background-image: url("../image/yellow_pad.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
 .product-info {
   height: 70%;
   display: flex;
